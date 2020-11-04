@@ -57,6 +57,6 @@ select item in "${foods[@]}"; do
                    break
             fi
             ;;
-        *) echo "invalid option $REPLY";;
+        *) echo "invalid option, choose between 1-3";;
     esac
 done
